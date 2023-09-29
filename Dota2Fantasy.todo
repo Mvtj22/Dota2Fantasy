@@ -1,0 +1,102 @@
+Dota 2 Fantasy Notes:
+    Title:
+        ☐ Need to find out what titles are available.
+
+    Emblem Colors and Stats:
+        - Core has 2 Red, 1 Green
+        - Mid has 1 Red, 1 Blue, 1 Green
+        - Support has 2 Blue, 1 Green
+
+        Red:
+            - Kills: 125 per kill
+            - Deaths: 2600 - 260 per death
+            - GPM: Gpm*2
+            - Neutral Tokens Found: 350 each
+            - Tower Kills: 325 for last hit
+        
+        Blue:
+            - Wards Placed: 145 per each
+            - Camps Stacked: 225 each
+            - Runes Grabbed: 105 per rune grabbed
+                ☐ Counts wisdom runes and gold runes? 
+            - Watchers Taken: 235 per watcher captured
+            - Lotuses Taken: 240 per lotus taken
+        
+        Green:
+            - Roshan Kills: 890 per roshan kill
+                ☐ Need to get last hit?
+            - Teamfight Participation: Max 1835 for Participation in Teamfight
+                ☐ How is this calculated
+            - Stuns: 20 per second of stun
+            - Tormentor Kills: 875 per Tormentor killed
+                ☐ Need to get last hit?
+            - Courier Kills: 855 per courier
+
+        ☐ Check the average stats for each player, and role for each stat.
+        ☐ How big is the difference between winning and losing, should I pick players I think will win.
+            - Only 2 of 3 Matches count, and only one series a day.
+
+
+        Core and Red:
+            - Kills: 125 per kill
+                - Yatoro had 11.00 kills avg
+                - 1,375
+            - Deaths: 2600 - 260 per death
+                - TA2000 had 2.50 Deaths avg
+                - 1,950
+            - GPM: Gpm*2
+                - Yatoro had 827 GPM avg
+                - 1,654
+            - Neutral Tokens Found: 350 each
+            - Tower Kills: 325 for last hit
+
+        Mid and Red:
+            - Kills: 125 per kill
+                - Kiyotaka had 9.17 kills avg
+                - 1,146.25
+            - Deaths: 2600 - 260 per death
+                - Abed had 2.41 Deaths avg
+                - 1,973.40
+            - GPM: Gpm*2
+                - Stormstormer had 645 GPM avg
+                - 1,290
+            - Neutral Tokens Found: 350 each
+            - Tower Kills: 325 for last hit
+
+    Emblem Quality:
+        - Tier 1: 10%
+        - Tier 2: 30%
+        - Tier 3: 60%
+        - Tier 4: 100%
+        - Tier 5: 150%
+        ✔ Do calculations to see on average rolling on each tier what %gain you will get. @done (9/29/2023, 12:52:37 PM)
+            - Pretty sure you can roll a worse Quality but not the same lvl
+            - 75% avg improvement at tier 1
+            - 50% avg improvement at tier 2
+            - 12.5% avg improvement at tier 3
+            - -37.5% avg improvement at tier 4
+
+            - Basically Roll if Tier 3 and under only
+
+
+    Emblem Traits:
+        - Incorruptible is worthless
+        ☐ For adjacency calculations we need to consider if percentages are equal maybe one color, stat is way better?
+            - Benevolent is 20% to adjacent so 40% in middle, 20% on sides.
+            - Vampiric is 50% on it, -10% on adjacent so 30% in middle, 40% on sides.
+        - Unique is 30% if only one, this is worthless compared to adjacencies.
+        - Friendly is 50% if 3 Friendly Traits. So by far the best but you need all three.
+
+        Best Traits:
+            - Friendly (if all 3). 50%
+            - Vampiric on Sides or Benevolent in middle. 40%
+            - Vampiric in middle or Unique if only one. 30%
+            - Benevolent on sides. 20%
+            - Incorruptible is trash.
+
+    Other:
+        - Changing players does not change banners.
+
+
+What I need to do: 
+    ☐ Need to get the last X professional matches for each player. Then get the average stats per match or series for each stat.
