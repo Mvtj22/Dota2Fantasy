@@ -14,13 +14,16 @@ Dota 2 Fantasy Notes:
             - GPM: Gpm*2
             - Neutral Tokens Found: 350 each
             - Tower Kills: 325 for last hit
+                ✔ I decided that barracks aren't towers @done (10/2/2023, 12:33:37 PM)
         
         Blue:
             - Wards Placed: 145 per each
-                ☐ Do sentries count?
+                ✔ Do sentries count? @done (10/2/2023, 12:33:29 PM)
+                - No
             - Camps Stacked: 225 each
             - Runes Grabbed: 105 per rune grabbed
-                ☐ Counts wisdom runes and gold runes? 
+                ✔ Counts wisdom runes and gold runes? @done (10/2/2023, 12:33:09 PM)
+                - Assuming wisdom and gold runes count
             - Watchers Taken: 235 per watcher captured
             - Lotuses Taken: 240 per lotus taken
         
@@ -103,23 +106,26 @@ Dota 2 Fantasy Notes:
 What I need to do: 
     ☐ Need to get the last X professional matches for each player. Then get the average stats per match or series for each stat.
     ☐ Hide Api Token
-    ☐ Finish Player Class to hold info, team, and stats.
-        ☐ Get the playerId, name, team and role from DPC League
-            ☐ Get basic stats into player Class
-            ☐ Code towerdeath attackers with player if for towers taken
-            ☐ Code wards Placed
-            ☐ Code campsStacked
-            ☐ Code runes gotten make it only the one's pickedup not bottled
+    ✔ Finish Player Class to hold info, team, and stats. @done (10/2/2023, 1:30:28 PM)
+        ✔ Get the playerId, name, team and role from DPC League @done (10/2/2023, 1:30:25 PM)
+            ✔ Get basic stats into player Class @done (10/2/2023, 10:43:46 AM)
+            ✔ Code towerdeath attackers with player if for towers taken @done (10/2/2023, 11:05:35 AM)
+            ✔ Code wards Placed @done (10/2/2023, 11:13:19 AM)
+            ✔ Code campsStacked @done (10/2/2023, 11:19:31 AM)
+            ✔ Code runes gotten make it only the one's pickedup not bottled @done (10/2/2023, 12:44:51 PM)
+            ✔ Code Courier Kills @done (10/2/2023, 12:47:27 PM)
+            ☐ Get the teamId/team name for the player
     ☐ Are we going to get playerid manually or get them from teamId and manually put in teams
         ☐ If so what if there are sub players, probably make this a json file that can be manually changed
 
     Query stuff:
-        ☐ Need to get the player that killed roshan using the npcid and csevents
+        ✔ Need to get the player that killed roshan using the npcid and csevents @done (10/2/2023, 10:42:57 AM)
             ✔ I would load a match, look for when roshan is killed in game, go to that exact time in the cs events and see what npc id it is. @done (10/1/2023, 4:09:58 PM)
-            Roshanid = 133
+              Roshanid = 133
         ✔ Get the courier kills from courier events? @done (10/1/2023, 7:34:22 PM)
         ☐ Get the Tormentor kills from playbackdata?
-        ☐ GPM doesn't include passive gold?
+        ✔ GPM doesn't include passive gold? @done (10/2/2023, 12:32:37 PM)
+            - Data matches Dota 2 Replay Scoreboard
 
         ☐ Need to figure out stuns, Teamfight, watcher, Lotuses, and tokens found.
             ✔ Stuns @done (10/1/2023, 7:32:44 PM)
@@ -131,5 +137,12 @@ What I need to do:
             ☐ Watcher
             ☐ Lotuses
             ☐ Tokens
+        ✔ Need to somehow get the name of the player @done (10/2/2023, 9:57:57 AM)
+
+    ☐ Later on I should refactor the updatePlayersFromLeagueData
+        ☐ Add all stats for loop into one function?
+
+    ☐ Fantasy Object for averages in the ProPlayer Object
+    ☐ Show Data in table for ease of reading
 
     ☐ Most likely we need to manually do :
