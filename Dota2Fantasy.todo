@@ -9,6 +9,7 @@ Dota 2 Fantasy Notes:
 
         Red:
             - Kills: 125 per kill
+            - Creep Score +3 per last hit or deny
             - Deaths: 2600 - 260 per death
             - GPM: Gpm*2
             - Neutral Tokens Found: 350 each
@@ -16,6 +17,7 @@ Dota 2 Fantasy Notes:
         
         Blue:
             - Wards Placed: 145 per each
+                ☐ Do sentries count?
             - Camps Stacked: 225 each
             - Runes Grabbed: 105 per rune grabbed
                 ☐ Counts wisdom runes and gold runes? 
@@ -24,7 +26,7 @@ Dota 2 Fantasy Notes:
         
         Green:
             - Roshan Kills: 890 per roshan kill
-                ☐ Need to get last hit?
+                ✔ Need to get last hit? Yes @done (10/1/2023, 7:38:34 PM)
             - Teamfight Participation: Max 1835 for Participation in Teamfight
                 ☐ How is this calculated
             - Stuns: 20 per second of stun
@@ -100,3 +102,34 @@ Dota 2 Fantasy Notes:
 
 What I need to do: 
     ☐ Need to get the last X professional matches for each player. Then get the average stats per match or series for each stat.
+    ☐ Hide Api Token
+    ☐ Finish Player Class to hold info, team, and stats.
+        ☐ Get the playerId, name, team and role from DPC League
+            ☐ Get basic stats into player Class
+            ☐ Code towerdeath attackers with player if for towers taken
+            ☐ Code wards Placed
+            ☐ Code campsStacked
+            ☐ Code runes gotten make it only the one's pickedup not bottled
+    ☐ Are we going to get playerid manually or get them from teamId and manually put in teams
+        ☐ If so what if there are sub players, probably make this a json file that can be manually changed
+
+    Query stuff:
+        ☐ Need to get the player that killed roshan using the npcid and csevents
+            ✔ I would load a match, look for when roshan is killed in game, go to that exact time in the cs events and see what npc id it is. @done (10/1/2023, 4:09:58 PM)
+            Roshanid = 133
+        ✔ Get the courier kills from courier events? @done (10/1/2023, 7:34:22 PM)
+        ☐ Get the Tormentor kills from playbackdata?
+        ☐ GPM doesn't include passive gold?
+
+        ☐ Need to figure out stuns, Teamfight, watcher, Lotuses, and tokens found.
+            ✔ Stuns @done (10/1/2023, 7:32:44 PM)
+            ☐ Teamfight
+                - Teamfight points are 5*(teamfight participation rate)
+                    50% of teamfights = 50%
+                    100% of teamfights = 100%
+                    If a fight recap shows up below the clock when spectating, it counts as a teamfight.
+            ☐ Watcher
+            ☐ Lotuses
+            ☐ Tokens
+
+    ☐ Most likely we need to manually do :
