@@ -36,6 +36,7 @@ Dota 2 Fantasy Notes:
             - Tormentor Kills: 875 per Tormentor killed
                 ☐ Need to get last hit?
             - Courier Kills: 855 per courier
+            - First Blood: 2000 if FirstBlood
 
         ☐ Check the average stats for each player, and role for each stat.
         ☐ How big is the difference between winning and losing, should I pick players I think will win.
@@ -104,7 +105,7 @@ Dota 2 Fantasy Notes:
 
 
 What I need to do: 
-    ☐ Need to get the last X professional matches for each player. Then get the average stats per match or series for each stat.
+    ✔ Need to get the last X professional matches for each player. Then get the average stats per match or series for each stat. @done (10/3/2023, 6:00:37 PM)
     ☐ Hide Api Token
     ✔ Finish Player Class to hold info, team, and stats. @done (10/2/2023, 1:30:28 PM)
         ✔ Get the playerId, name, team and role from DPC League @done (10/2/2023, 1:30:25 PM)
@@ -114,6 +115,7 @@ What I need to do:
             ✔ Code campsStacked @done (10/2/2023, 11:19:31 AM)
             ✔ Code runes gotten make it only the one's pickedup not bottled @done (10/2/2023, 12:44:51 PM)
             ✔ Code Courier Kills @done (10/2/2023, 12:47:27 PM)
+            ✔ Add FirstBlood @done (10/3/2023, 4:22:32 PM)
             ☐ Get the teamId/team name for the player
     ☐ Are we going to get playerid manually or get them from teamId and manually put in teams
         ☐ If so what if there are sub players, probably make this a json file that can be manually changed
@@ -141,9 +143,14 @@ What I need to do:
 
     ☐ Later on I should refactor the updatePlayersFromLeagueData
         ☐ Add all stats for loop into one function?
-        ☐ Instead of indiviual variables in ProPlayer we have a dictionary for the pandas table
+        ✘ Instead of indiviual variables in ProPlayer we have a dictionary for the pandas table @cancelled (10/3/2023, 6:00:55 PM)
 
-    ☐ Fantasy Object for averages in the ProPlayer Object
-    ☐ Show Data in table for ease of reading
+    ✔ Fantasy Object for averages in the ProPlayer Object @done (10/3/2023, 6:01:02 PM)
+    ✔ Show Data in table for ease of reading @done (10/3/2023, 6:01:05 PM)
+
+    ☐ Need to fix stuns fantasy numbers
+    ☐ Need to add position to ProPlayer Classes and Functions
+        ☐ Really need to refactor this stuff
+    ☐ Need to do averages and top based on positions
 
     ☐ Most likely we need to manually do :
