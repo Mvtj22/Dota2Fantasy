@@ -141,6 +141,7 @@ What I need to do:
 
     ☐ Later on I should refactor the updatePlayersFromLeagueData
         ☐ Add all stats for loop into one function?
+        ☐ Instead of indiviual variables in ProPlayer we have a dictionary for the pandas table
 
     ☐ Fantasy Object for averages in the ProPlayer Object
     ☐ Show Data in table for ease of reading
