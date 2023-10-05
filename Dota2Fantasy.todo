@@ -117,8 +117,8 @@ What I need to do:
             ✔ Code Courier Kills @done (10/2/2023, 12:47:27 PM)
             ✔ Add FirstBlood @done (10/3/2023, 4:22:32 PM)
             ☐ Get the teamId/team name for the player
-    ☐ Are we going to get playerid manually or get them from teamId and manually put in teams
-        ☐ If so what if there are sub players, probably make this a json file that can be manually changed
+    ✔ Are we going to get playerid manually or get them from teamId and manually put in teams @done (10/4/2023, 3:23:47 PM)
+        ✘ If so what if there are sub players, probably make this a json file that can be manually changed @cancelled (10/4/2023, 3:23:52 PM)
 
     Query stuff:
         ✔ Need to get the player that killed roshan using the npcid and csevents @done (10/2/2023, 10:42:57 AM)
@@ -141,16 +141,20 @@ What I need to do:
             ☐ Tokens
         ✔ Need to somehow get the name of the player @done (10/2/2023, 9:57:57 AM)
 
-    ☐ Later on I should refactor the updatePlayersFromLeagueData
-        ☐ Add all stats for loop into one function?
+    ✔ Later on I should refactor the updatePlayersFromLeagueData @done (10/4/2023, 3:23:26 PM)
+        ✘ Add all stats for loop into one function? @cancelled (10/4/2023, 3:23:31 PM)
         ✘ Instead of indiviual variables in ProPlayer we have a dictionary for the pandas table @cancelled (10/3/2023, 6:00:55 PM)
 
     ✔ Fantasy Object for averages in the ProPlayer Object @done (10/3/2023, 6:01:02 PM)
     ✔ Show Data in table for ease of reading @done (10/3/2023, 6:01:05 PM)
 
+    ✔ Need to add position to ProPlayer Classes and Functions @done (10/4/2023, 3:23:22 PM)
+        ✔ Really need to refactor this stuff @done (10/4/2023, 3:23:19 PM)
     ☐ Need to fix stuns fantasy numbers
-    ☐ Need to add position to ProPlayer Classes and Functions
-        ☐ Really need to refactor this stuff
+        ☐ Do based on match and opendota numbers
+    ☐ Found out the there is a blue smoked used
     ☐ Need to do averages and top based on positions
+    ☐ Function to only do stats for teams at TI
+    ☐ Sheet using matches from leagues where only teams that are in TI are facing each other as Data
 
     ☐ Most likely we need to manually do :
