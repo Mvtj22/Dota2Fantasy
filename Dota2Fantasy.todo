@@ -13,6 +13,7 @@ Dota 2 Fantasy Notes:
             - Deaths: 2600 - 260 per death
             - GPM: Gpm*2
             - Neutral Tokens Found: 350 each
+                - 5 * 5 dropped so 25 * 350 = 8750
             - Tower Kills: 325 for last hit
                 ✔ I decided that barracks aren't towers @done (10/2/2023, 12:33:37 PM)
         
@@ -34,11 +35,11 @@ Dota 2 Fantasy Notes:
                 ☐ How is this calculated
             - Stuns: 20 per second of stun
             - Tormentor Kills: 875 per Tormentor killed
-                ☐ Need to get last hit?
+                ✔ Need to get last hit? @done (10/6/2023, 2:58:17 PM)
             - Courier Kills: 855 per courier
             - First Blood: 2000 if FirstBlood
 
-        ☐ Check the average stats for each player, and role for each stat.
+        ✔ Check the average stats for each player, and role for each stat. @done (10/6/2023, 8:08:53 PM)
         ☐ How big is the difference between winning and losing, should I pick players I think will win.
             - Only 2 of 3 Matches count, and only one series a day.
 
@@ -125,20 +126,21 @@ What I need to do:
             ✔ I would load a match, look for when roshan is killed in game, go to that exact time in the cs events and see what npc id it is. @done (10/1/2023, 4:09:58 PM)
               Roshanid = 133
         ✔ Get the courier kills from courier events? @done (10/1/2023, 7:34:22 PM)
-        ☐ Get the Tormentor kills from playbackdata?
+        ✔ Get the Tormentor kills from playbackdata? @done (10/6/2023, 3:00:33 PM)
+            -npcId: 861
         ✔ GPM doesn't include passive gold? @done (10/2/2023, 12:32:37 PM)
             - Data matches Dota 2 Replay Scoreboard
 
-        ☐ Need to figure out stuns, Teamfight, watcher, Lotuses, and tokens found.
+        ✘ Need to figure out stuns, Teamfight, watcher, Lotuses, and tokens found. @cancelled (10/6/2023, 8:08:42 PM)
             ✔ Stuns @done (10/1/2023, 7:32:44 PM)
-            ☐ Teamfight
+            ✔ Teamfight @done (10/6/2023, 8:08:35 PM)
                 - Teamfight points are 5*(teamfight participation rate)
                     50% of teamfights = 50%
                     100% of teamfights = 100%
                     If a fight recap shows up below the clock when spectating, it counts as a teamfight.
-            ☐ Watcher
-            ☐ Lotuses
-            ☐ Tokens
+            ✘ Watcher @cancelled (10/6/2023, 8:08:39 PM)
+            ✘ Lotuses @cancelled (10/6/2023, 8:08:40 PM)
+            ✘ Tokens @cancelled (10/6/2023, 8:08:41 PM)
         ✔ Need to somehow get the name of the player @done (10/2/2023, 9:57:57 AM)
 
     ✔ Later on I should refactor the updatePlayersFromLeagueData @done (10/4/2023, 3:23:26 PM)
@@ -150,11 +152,16 @@ What I need to do:
 
     ✔ Need to add position to ProPlayer Classes and Functions @done (10/4/2023, 3:23:22 PM)
         ✔ Really need to refactor this stuff @done (10/4/2023, 3:23:19 PM)
-    ☐ Need to fix stuns fantasy numbers
-        ☐ Do based on match and opendota numbers
-    ☐ Found out the there is a blue smoked used
+    ✔ Need to fix stuns fantasy numbers @done (10/5/2023, 4:41:57 PM)
+        ✔ Do based on match and opendota numbers @done (10/5/2023, 4:41:58 PM)
+        ✘ "stunDuration": they say divided by 100 but the numbers on opendota dont match @cancelled (10/5/2023, 4:42:07 PM)
+    ✔ Found out the there is a blue smoked used @done (10/6/2023, 8:08:06 PM)
+        - "id": 188
     ☐ Need to do averages and top based on positions
     ☐ Function to only do stats for teams at TI
+        ☐ Get the stats for winning and losing matches
     ☐ Sheet using matches from leagues where only teams that are in TI are facing each other as Data
+    ✔ Can get teamfightParticipationFromOpendota @done (10/6/2023, 4:33:19 PM)
 
+    - For other times it is possible to get the elo of a team with the datDota Api and teams/performances
     ☐ Most likely we need to manually do :
