@@ -117,7 +117,7 @@ What I need to do:
             ✔ Code runes gotten make it only the one's pickedup not bottled @done (10/2/2023, 12:44:51 PM)
             ✔ Code Courier Kills @done (10/2/2023, 12:47:27 PM)
             ✔ Add FirstBlood @done (10/3/2023, 4:22:32 PM)
-            ☐ Get the teamId/team name for the player
+            ✔ Get the teamId/team name for the player @done (10/6/2023, 10:45:14 PM)
     ✔ Are we going to get playerid manually or get them from teamId and manually put in teams @done (10/4/2023, 3:23:47 PM)
         ✘ If so what if there are sub players, probably make this a json file that can be manually changed @cancelled (10/4/2023, 3:23:52 PM)
 
@@ -158,8 +158,9 @@ What I need to do:
     ✔ Found out the there is a blue smoked used @done (10/6/2023, 8:08:06 PM)
         - "id": 188
     ☐ Need to do averages and top based on positions
-    ☐ Function to only do stats for teams at TI
-        ☐ Get the stats for winning and losing matches
+    ✔ Function to only do stats for teams at TI @done (10/6/2023, 10:45:23 PM)
+    ☐ Get the stats for winning and losing matches
+        ☐ Add a wonMatch check before, as an option parameter
     ☐ Sheet using matches from leagues where only teams that are in TI are facing each other as Data
     ✔ Can get teamfightParticipationFromOpendota @done (10/6/2023, 4:33:19 PM)
 
