@@ -163,6 +163,7 @@ What I need to do:
         ☐ Add a wonMatch check before, as an option parameter
     ☐ Sheet using matches from leagues where only teams that are in TI are facing each other as Data
     ✔ Can get teamfightParticipationFromOpendota @done (10/6/2023, 4:33:19 PM)
+    ☐ Check that all players appear, after we add in more leagues and TI teams only.
 
     - For other times it is possible to get the elo of a team with the datDota Api and teams/performances
     ☐ Most likely we need to manually do :
