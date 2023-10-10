@@ -159,11 +159,22 @@ What I need to do:
         - "id": 188
     ☐ Need to do averages and top based on positions
     ✔ Function to only do stats for teams at TI @done (10/6/2023, 10:45:23 PM)
-    ☐ Get the stats for winning and losing matches
-        ☐ Add a wonMatch check before, as an option parameter
-    ☐ Sheet using matches from leagues where only teams that are in TI are facing each other as Data
+    ✘ Get the stats for winning and losing matches @cancelled (10/9/2023, 5:34:40 PM)
+        ✘ Add a wonMatch check before, as an option parameter @cancelled (10/9/2023, 5:34:41 PM)
+    ✘ Sheet using matches from leagues where only teams that are in TI are facing each other as Data @cancelled (10/9/2023, 5:34:37 PM)
     ✔ Can get teamfightParticipationFromOpendota @done (10/6/2023, 4:33:19 PM)
     ☐ Check that all players appear, after we add in more leagues and TI teams only.
 
     - For other times it is possible to get the elo of a team with the datDota Api and teams/performances
-    ☐ Most likely we need to manually do :
+
+    Top 10 Cores, 5 Mids, and 10 Supports
+    Cores:
+        Green Emblem Stats: Teamfight Participation(), Tormentor Kills, Roshan Kills(), Stuns()
+        Red Emblem Stats: GPM(), Deaths(), CS(), TowerKills(), Kills(), NeutralTokens(IDK)
+    Mid:
+        Blue Emblem Stats:
+        Green Emblem Stats:
+        Red Emblem Stats:
+    Supports:
+        Blue Emblem Stats:
+        Green Emblem Stats:
