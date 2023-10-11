@@ -157,24 +157,64 @@ What I need to do:
         ✘ "stunDuration": they say divided by 100 but the numbers on opendota dont match @cancelled (10/5/2023, 4:42:07 PM)
     ✔ Found out the there is a blue smoked used @done (10/6/2023, 8:08:06 PM)
         - "id": 188
-    ☐ Need to do averages and top based on positions
+    ✔ Need to do averages and top based on positions @done (10/10/2023, 8:34:24 PM)
     ✔ Function to only do stats for teams at TI @done (10/6/2023, 10:45:23 PM)
     ✘ Get the stats for winning and losing matches @cancelled (10/9/2023, 5:34:40 PM)
         ✘ Add a wonMatch check before, as an option parameter @cancelled (10/9/2023, 5:34:41 PM)
     ✘ Sheet using matches from leagues where only teams that are in TI are facing each other as Data @cancelled (10/9/2023, 5:34:37 PM)
     ✔ Can get teamfightParticipationFromOpendota @done (10/6/2023, 4:33:19 PM)
-    ☐ Check that all players appear, after we add in more leagues and TI teams only.
+    ✔ Check that all players appear, after we add in more leagues and TI teams only. @done (10/10/2023, 9:40:07 PM)
 
     - For other times it is possible to get the elo of a team with the datDota Api and teams/performances
 
     Top 10 Cores, 5 Mids, and 10 Supports
-    Cores:
-        Green Emblem Stats: Teamfight Participation(), Tormentor Kills, Roshan Kills(), Stuns()
-        Red Emblem Stats: GPM(), Deaths(), CS(), TowerKills(), Kills(), NeutralTokens(IDK)
-    Mid:
-        Blue Emblem Stats:
-        Green Emblem Stats:
-        Red Emblem Stats:
-    Supports:
-        Blue Emblem Stats:
-        Green Emblem Stats:
+    Core redStats(2): 
+        [('deathsFantasyPoints', 1905.718742964811),
+         ('GPMFantasyPoints', 1506.3467951487976),
+         ('CSFantasyPoints', 1461.1264563099087),
+         ('towerKillsFantasyPoints', 1189.8848440458178),
+         ('killsFantasyPoints', 956.5034978556532)]
+        
+        Core greenStats(1): 
+        [('teamFightFantasyPoints', 1318.2762409399077),
+         ('tormentorFantasyPoints', 757.3659171936988),
+         ('roshFantasyPoints', 649.9058072373363),
+         ('stunFantasyPoints', 550.0340444558987),
+         ('courierFantasyPoints', 483.92289797957875),
+         ('firstBloodFantasyPoints', 349.9976703076624)]
+        
+        Mid redStats(1): 
+        [('deathsFantasyPoints', 1939.5868628636701),
+         ('GPMFantasyPoints', 1258.4118763087522),
+         ('CSFantasyPoints', 1096.6304352922004),
+         ('killsFantasyPoints', 1095.065610236791),
+         ('towerKillsFantasyPoints', 503.8491656304632)]
+        
+        Mid greenStats(1): 
+        [('teamFightFantasyPoints', 1547.1616132531296),
+         ('stunFantasyPoints', 639.7333550504363),
+         ('tormentorFantasyPoints', 394.34906556857777),
+         ('courierFantasyPoints', 392.16904761904755),
+         ('roshFantasyPoints', 364.90229025986827),
+         ('firstBloodFantasyPoints', 293.79829335483436)]
+        
+        Mid blueStats(1): 
+        [('runesFantasyPoints', 1417.8396160072184),
+         ('wardsFantasyPoints', 569.8204523776171),
+         ('campsStackedFantasyPoints', 538.5060374627265),
+         ('smokesUsedFantasyPoints', 396.0523458566359)]
+        
+        Support greenStats(1): 
+        [('teamFightFantasyPoints', 1370.7342200330927),
+         ('stunFantasyPoints', 645.2254203170429),
+         ('courierFantasyPoints', 485.83689723233465),
+         ('firstBloodFantasyPoints', 296.5324286917845),
+         ('tormentorFantasyPoints', 136.7799495821761),
+         ('roshFantasyPoints', 113.23201975632108)]
+        
+        Support blueStats(1): 
+        [('wardsFantasyPoints', 1662.5536971464019),
+         ('smokesUsedFantasyPoints', 1539.8106908706914),
+         ('campsStackedFantasyPoints', 1229.4414814093084),
+         ('runesFantasyPoints', 674.3188495219874)]
+    
