@@ -250,53 +250,111 @@ What I need to do:
              ('campsStackedFantasyPoints', 1130.5431678379948),
              ('runesFantasyPoints', 664.7591011034709)]
 
-        Only Group Stage Data:
+
+    Top 10 Cores, 5 Mids, and 10 Supports
+    The International:
+        All Data:
             Core redStats(2): 
-                [('deathsFantasyPoints', 1813.3424242424244),
-                 ('GPMFantasyPoints', 1475.142121212121),
-                 ('CSFantasyPoints', 1460.247272727273),
-                 ('killsFantasyPoints', 1092.9166666666667),
-                 ('towerKillsFantasyPoints', 967.564393939394)]
+                [('deathsFantasyPoints', 1728.4680979981774),
+                 ('GPMFantasyPoints', 1352.5192742606625),
+                 ('CSFantasyPoints', 1255.5208917349687),
+                 ('towerKillsFantasyPoints', 848.0695246792513),
+                 ('killsFantasyPoints', 751.6984280778247)]
                 
                 Core greenStats(2): 
-                [('teamFightFantasyPoints', 1348.8678263909092),
-                 ('stunFantasyPoints', 873.1781818181819),
-                 ('tormentorFantasyPoints', 845.435606060606),
-                 ('roshFantasyPoints', 603.5818181818182),
-                 ('courierFantasyPoints', 445.3772727272727),
-                 ('firstBloodFantasyPoints', 430.9090909090909)]
+                [('teamFightFantasyPoints', 1224.9686887543837),
+                 ('tormentorFantasyPoints', 485.9138816059085),
+                 ('stunFantasyPoints', 468.2577410511103),
+                 ('roshFantasyPoints', 436.6718160796323),
+                 ('courierFantasyPoints', 319.74454936365635),
+                 ('firstBloodFantasyPoints', 244.44751564341422)]
                 
                 Mid redStats(2): 
-                [('deathsFantasyPoints', 1784.5454545454545),
-                 ('GPMFantasyPoints', 1340.2945454545454),
-                 ('CSFantasyPoints', 1215.6),
-                 ('killsFantasyPoints', 1065.6818181818182),
-                 ('towerKillsFantasyPoints', 715.5909090909091)]
+                [('deathsFantasyPoints', 1765.0772934671127),
+                 ('GPMFantasyPoints', 1218.7681481673433),
+                 ('CSFantasyPoints', 1061.2637305361263),
+                 ('killsFantasyPoints', 933.4923350557871),
+                 ('towerKillsFantasyPoints', 457.7340020363348)]
                 
                 Mid greenStats(1): 
-                [('teamFightFantasyPoints', 1383.5317304090909),
-                 ('stunFantasyPoints', 960.3192727272728),
-                 ('tormentorFantasyPoints', 464.5454545454546),
-                 ('courierFantasyPoints', 453.9272727272727),
-                 ('firstBloodFantasyPoints', 392.7272727272727),
-                 ('roshFantasyPoints', 373.8)]
+                [('teamFightFantasyPoints', 1355.7236977821183),
+                 ('stunFantasyPoints', 555.5386579498178),
+                 ('roshFantasyPoints', 326.74792086534916),
+                 ('tormentorFantasyPoints', 258.97812975006127),
+                 ('firstBloodFantasyPoints', 223.20063161155895),
+                 ('courierFantasyPoints', 205.97998443091484)]
                 
                 Mid blueStats(1): 
-                [('runesFantasyPoints', 1355.2636363636361),
-                 ('campsStackedFantasyPoints', 756.8181818181818),
-                 ('wardsFantasyPoints', 640.6363636363636),
-                 ('smokesUsedFantasyPoints', 356.6727272727273)]
+                [('runesFantasyPoints', 1194.6424376551872),
+                 ('wardsFantasyPoints', 491.1458614402055),
+                 ('campsStackedFantasyPoints', 438.9447302939478),
+                 ('smokesUsedFantasyPoints', 301.8485868106801)]
                 
                 Support greenStats(2): 
-                [('teamFightFantasyPoints', 1388.653492883333),
-                 ('stunFantasyPoints', 662.4443636363636),
-                 ('courierFantasyPoints', 484.2409090909091),
-                 ('firstBloodFantasyPoints', 445.4545454545455),
-                 ('roshFantasyPoints', 170.7181818181818),
-                 ('tormentorFantasyPoints', 163.0681818181818)]
+                [('teamFightFantasyPoints', 1288.9593052820924),
+                 ('stunFantasyPoints', 442.4633353080403),
+                 ('courierFantasyPoints', 358.17711912150514),
+                 ('firstBloodFantasyPoints', 251.55108404030722),
+                 ('tormentorFantasyPoints', 102.24543330786055),
+                 ('roshFantasyPoints', 53.44435462583421)]
                 
                 Support blueStats(2): 
-                [('wardsFantasyPoints', 1702.5636363636363),
-                 ('smokesUsedFantasyPoints', 1666.009090909091),
-                 ('campsStackedFantasyPoints', 1311.2386363636365),
-                 ('runesFantasyPoints', 730.7363636363636)]
+                [('wardsFantasyPoints', 1287.9915166299731),
+                 ('smokesUsedFantasyPoints', 1189.791272695688),
+                 ('campsStackedFantasyPoints', 897.6337181940692),
+                 ('runesFantasyPoints', 597.5997476439836)]
+
+
+            Only TI Data:
+                Core redStats(2): 
+                    [('deathsFantasyPoints', 1753.786904761905),
+                        ('GPMFantasyPoints', 1426.7489835164833),
+                        ('CSFantasyPoints', 1356.4650961538462),
+                        ('killsFantasyPoints', 980.9294871794873),
+                        ('towerKillsFantasyPoints', 934.4747023809525)]
+                    
+                    Core greenStats(2): 
+                    [('teamFightFantasyPoints', 1294.1801958160718),
+                        ('stunFantasyPoints', 689.348413003663),
+                        ('tormentorFantasyPoints', 636.2980769230769),
+                        ('roshFantasyPoints', 572.4607142857143),
+                        ('courierFantasyPoints', 336.66016483516484),
+                        ('firstBloodFantasyPoints', 281.74908424908415)]
+                    
+                    Mid redStats(2): 
+                    [('deathsFantasyPoints', 1839.5),
+                        ('GPMFantasyPoints', 1300.1633333333334),
+                        ('CSFantasyPoints', 1187.56),
+                        ('killsFantasyPoints', 932.727793040293),
+                        ('towerKillsFantasyPoints', 586.625)]
+                    
+                    Mid greenStats(1): 
+                    [('teamFightFantasyPoints', 1342.5993887501832),
+                        ('stunFantasyPoints', 862.191139194139),
+                        ('tormentorFantasyPoints', 342.39583333333337),
+                        ('roshFantasyPoints', 315.5750915750916),
+                        ('courierFantasyPoints', 262.2),
+                        ('firstBloodFantasyPoints', 256.007326007326)]
+                    
+                    Mid blueStats(1): 
+                    [('runesFantasyPoints', 1269.6653846153845),
+                        ('campsStackedFantasyPoints', 539.8125),
+                        ('wardsFantasyPoints', 533.5628205128205),
+                        ('smokesUsedFantasyPoints', 268.45)]
+                    
+                    Support greenStats(2): 
+                    [('teamFightFantasyPoints', 1330.143404061859),
+                        ('stunFantasyPoints', 471.7730064102564),
+                        ('courierFantasyPoints', 366.55384615384617),
+                        ('firstBloodFantasyPoints', 297.49999999999994),
+                        ('tormentorFantasyPoints', 111.89903846153842),
+                        ('roshFantasyPoints', 84.52147435897436)]
+                    
+                    Support blueStats(2): 
+                    [('wardsFantasyPoints', 1372.132211538462),
+                        ('smokesUsedFantasyPoints', 1298.15),
+                        ('campsStackedFantasyPoints', 1037.1346153846152),
+                        ('runesFantasyPoints', 623.5855769230769)]
+
+
+☐ Fix Bracket numbers and add to readme
