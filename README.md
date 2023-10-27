@@ -2,7 +2,8 @@
 
 Get Stats from DPC tour 3, DreamLeague 20/21, Bali Major and TI qualifications to get the best stats for each role in the TI 2023 Fantasy Challenge.
 Note that I wasn't able to get the stats for watchers taken, lotuses, and neutral tokens.
-Uses  Top 10 Cores, 5 Mids, and 10 Supports.
+Uses Top 10 Cores, 5 Mids, and 10 Supports.
+Using the Percentile we can assume at least 54,000 people played the fantasy.
 
 GroupStage Results= 99.98% percentile, #54 on the world leaderboards
 
