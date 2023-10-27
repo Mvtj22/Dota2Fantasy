@@ -59,8 +59,9 @@ Pre-Group-Stage Results:
      ('campsStackedFantasyPoints', 1229.4414814093084),
      ('runesFantasyPoints', 674.3188495219874)]
 
-GroupStage Results= 99.95% percentile, On the world leaderboards
-Playoffs:
+Playoff Results= 99.95% percentile, On the world leaderboards
+
+Pre-Playoff Results:
 
     Core redStats(2): 
     [('deathsFantasyPoints', 1782.8617627348085),
