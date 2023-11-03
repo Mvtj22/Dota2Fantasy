@@ -254,7 +254,7 @@ What I need to do:
     Top 10 Cores, 5 Mids, and 10 Supports
     The International:
         All Data:
-            Core redStats(2): 
+            Core redStats(3): 
                 [('deathsFantasyPoints', 1728.4680979981774),
                  ('GPMFantasyPoints', 1352.5192742606625),
                  ('CSFantasyPoints', 1255.5208917349687),
@@ -276,7 +276,7 @@ What I need to do:
                  ('killsFantasyPoints', 933.4923350557871),
                  ('towerKillsFantasyPoints', 457.7340020363348)]
                 
-                Mid greenStats(1): 
+                Mid greenStats(2): 
                 [('teamFightFantasyPoints', 1355.7236977821183),
                  ('stunFantasyPoints', 555.5386579498178),
                  ('roshFantasyPoints', 326.74792086534916),
@@ -298,7 +298,7 @@ What I need to do:
                  ('tormentorFantasyPoints', 102.24543330786055),
                  ('roshFantasyPoints', 53.44435462583421)]
                 
-                Support blueStats(2): 
+                Support blueStats(3): 
                 [('wardsFantasyPoints', 1287.9915166299731),
                  ('smokesUsedFantasyPoints', 1189.791272695688),
                  ('campsStackedFantasyPoints', 897.6337181940692),
@@ -306,7 +306,7 @@ What I need to do:
 
 
             Only TI Data:
-                Core redStats(2): 
+                Core redStats(3): 
                     [('deathsFantasyPoints', 1753.786904761905),
                         ('GPMFantasyPoints', 1426.7489835164833),
                         ('CSFantasyPoints', 1356.4650961538462),
@@ -328,7 +328,7 @@ What I need to do:
                         ('killsFantasyPoints', 932.727793040293),
                         ('towerKillsFantasyPoints', 586.625)]
                     
-                    Mid greenStats(1): 
+                    Mid greenStats(2): 
                     [('teamFightFantasyPoints', 1342.5993887501832),
                         ('stunFantasyPoints', 862.191139194139),
                         ('tormentorFantasyPoints', 342.39583333333337),
@@ -350,12 +350,11 @@ What I need to do:
                         ('tormentorFantasyPoints', 111.89903846153842),
                         ('roshFantasyPoints', 84.52147435897436)]
                     
-                    Support blueStats(2): 
+                    Support blueStats(3): 
                     [('wardsFantasyPoints', 1372.132211538462),
                         ('smokesUsedFantasyPoints', 1298.15),
                         ('campsStackedFantasyPoints', 1037.1346153846152),
                         ('runesFantasyPoints', 623.5855769230769)]
 
 
-☐ Fix Bracket numbers and add to readme
-Add Pictures
+✔ Fix Bracket numbers and add to readme @done (11/2/2023, 11:51:34 PM)
