@@ -63,8 +63,8 @@ Playoff Results= 99.95% percentile, On the world leaderboards
 
 Pre-Playoff Results:
 
-    Core redStats(2): 
-    [('deathsFantasyPoints', 1782.8617627348085),
+        Core redStats(2): 
+        [('deathsFantasyPoints', 1782.8617627348085),
         ('GPMFantasyPoints', 1442.4384892708226),
         ('CSFantasyPoints', 1384.0704668215676),
         ('towerKillsFantasyPoints', 1011.2629247019615),
@@ -113,9 +113,11 @@ Pre-Playoff Results:
         ('campsStackedFantasyPoints', 1130.5431678379948),
         ('runesFantasyPoints', 664.7591011034709)]
 
+The International Results= 98.36% percentile, Not on the world leaderboards :(
+
 The International:
 
-                Core redStats(2): 
+                Core redStats(3): 
                 [('deathsFantasyPoints', 1728.4680979981774),
                  ('GPMFantasyPoints', 1352.5192742606625),
                  ('CSFantasyPoints', 1255.5208917349687),
@@ -137,7 +139,7 @@ The International:
                  ('killsFantasyPoints', 933.4923350557871),
                  ('towerKillsFantasyPoints', 457.7340020363348)]
                 
-                Mid greenStats(1): 
+                Mid greenStats(2): 
                 [('teamFightFantasyPoints', 1355.7236977821183),
                  ('stunFantasyPoints', 555.5386579498178),
                  ('roshFantasyPoints', 326.74792086534916),
@@ -159,7 +161,7 @@ The International:
                  ('tormentorFantasyPoints', 102.24543330786055),
                  ('roshFantasyPoints', 53.44435462583421)]
                 
-                Support blueStats(2): 
+                Support blueStats(3): 
                 [('wardsFantasyPoints', 1287.9915166299731),
                  ('smokesUsedFantasyPoints', 1189.791272695688),
                  ('campsStackedFantasyPoints', 897.6337181940692),
